@@ -6,7 +6,7 @@
 }
 
 :root {
-    --hue: 170;
+    --hue: 200;
     --primary-color: hsl(var(--hue), 100%, 26%);
     --headline: hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
@@ -177,6 +177,10 @@ nav .wrapper {
     justify-content: space-between;
 }
 
+nav#navigation .logo img {
+    width: 11.5rem;
+}
+
 nav.scroll {
     background-color: var(--primary-color);
 }
@@ -327,7 +331,7 @@ body.menu-expanded button path {
     display: block;
     margin-inline: auto;
 
-    object-position: 0 2rem;
+    /* object-position: 0 2rem; */
 }
 
 #home .stats {
@@ -401,6 +405,10 @@ body.menu-expanded button path {
     margin-bottom: 6rem;
 }
 
+#about img {
+    border-radius: 1rem;
+}
+
 /* ==== CONTACT ============================================ */
 #contact {  
     text-align: left;
@@ -434,19 +442,10 @@ footer {
     color: white;
 }
 
-footer .logo {
+footer .logo img {
     display: inline-block;
     margin-bottom: 2.4rem;
-    margin-left: -1.2rem;
-}
-
-footer .logo svg {
-    width: 26.6rem;
-    height: 3.1rem;
-}
-
-footer .logo path {
-    fill: white;
+    width: 16rem;
 }
 
 footer p {
@@ -686,7 +685,7 @@ footer .social-links {
     }
 
     #home img {
-        width: 42rem;
+        width: 35rem;
     }
 
     /* ==== SERVICES ============================================ */
